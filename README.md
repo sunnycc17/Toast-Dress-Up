@@ -1,0 +1,1 @@
+art inspo by cutecreator7 and QuakDuck on pixilart
