@@ -3,18 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/output.css" rel="stylesheet" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="bg-black overflow-hidden">
     <div id="game">
       <img src="/images/toast.png" id="toast" />
-      <div class="outfit-options">
-        <img src="hat.png" class="draggable" />
-        <img src="sunglasses.png" class="draggable" />
-        <img src="/images/meow.gif" />
-      </div>
-      <div id="dress-area"></div>
+      <div
+        class="absolute top-[48%] left-[5.5%] w-[20px] h-[40px] rounded-t-2xl bg-[#643423] origin-bottom animate-wiggle"
+      ></div>
     </div>
+    <div id="dress-area"></div>
     <script>
       // basic click-to-add
       document.querySelectorAll(".draggable").forEach((item) => {
